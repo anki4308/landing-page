@@ -5,7 +5,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copy package.json and package-lock.json
-COPY package.json package-lock.json ./
+COPY screen\ landing\ page/external-screen-landing/package.json screen\ landing\ page/external-screen-landing/package-lock.json ./
 
 # Install dependencies
 RUN npm install
